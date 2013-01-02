@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFFFA1561694263900EC9A34 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFFFA1551694263900EC9A34 /* UIKit.framework */; };
+		BFFFA1581694263900EC9A34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFFFA1571694263900EC9A34 /* Foundation.framework */; };
+		BFFFA15A1694263900EC9A34 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFFFA1591694263900EC9A34 /* CoreGraphics.framework */; };
+		BFFFA1601694263900EC9A34 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BFFFA15E1694263900EC9A34 /* InfoPlist.strings */; };
+		BFFFA1621694263900EC9A34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFFFA1611694263900EC9A34 /* main.m */; };
+		BFFFA1661694263900EC9A34 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFFFA1651694263900EC9A34 /* AppDelegate.m */; };
+		BFFFA1681694263900EC9A34 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BFFFA1671694263900EC9A34 /* Default.png */; };
+		BFFFA16A1694263900EC9A34 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BFFFA1691694263900EC9A34 /* Default@2x.png */; };
+		BFFFA16C1694263900EC9A34 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BFFFA16B1694263900EC9A34 /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BFFFA1511694263900EC9A34 /* icloudex2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = icloudex2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFFFA1551694263900EC9A34 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BFFFA1571694263900EC9A34 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BFFFA1591694263900EC9A34 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BFFFA15D1694263900EC9A34 /* icloudex2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "icloudex2-Info.plist"; sourceTree = "<group>"; };
+		BFFFA15F1694263900EC9A34 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BFFFA1611694263900EC9A34 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BFFFA1631694263900EC9A34 /* icloudex2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "icloudex2-Prefix.pch"; sourceTree = "<group>"; };
+		BFFFA1641694263900EC9A34 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BFFFA1651694263900EC9A34 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BFFFA1671694263900EC9A34 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		BFFFA1691694263900EC9A34 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		BFFFA16B1694263900EC9A34 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFFFA14E1694263900EC9A34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFFFA1561694263900EC9A34 /* UIKit.framework in Frameworks */,
+				BFFFA1581694263900EC9A34 /* Foundation.framework in Frameworks */,
+				BFFFA15A1694263900EC9A34 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFFFA1461694263900EC9A34 = {
+			isa = PBXGroup;
+			children = (
+				BFFFA15B1694263900EC9A34 /* icloudex2 */,
+				BFFFA1541694263900EC9A34 /* Frameworks */,
+				BFFFA1521694263900EC9A34 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFFFA1521694263900EC9A34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFFFA1511694263900EC9A34 /* icloudex2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFFFA1541694263900EC9A34 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BFFFA1551694263900EC9A34 /* UIKit.framework */,
+				BFFFA1571694263900EC9A34 /* Foundation.framework */,
+				BFFFA1591694263900EC9A34 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BFFFA15B1694263900EC9A34 /* icloudex2 */ = {
+			isa = PBXGroup;
+			children = (
+				BFFFA1641694263900EC9A34 /* AppDelegate.h */,
+				BFFFA1651694263900EC9A34 /* AppDelegate.m */,
+				BFFFA15C1694263900EC9A34 /* Supporting Files */,
+			);
+			path = icloudex2;
+			sourceTree = "<group>";
+		};
+		BFFFA15C1694263900EC9A34 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFFFA15D1694263900EC9A34 /* icloudex2-Info.plist */,
+				BFFFA15E1694263900EC9A34 /* InfoPlist.strings */,
+				BFFFA1611694263900EC9A34 /* main.m */,
+				BFFFA1631694263900EC9A34 /* icloudex2-Prefix.pch */,
+				BFFFA1671694263900EC9A34 /* Default.png */,
+				BFFFA1691694263900EC9A34 /* Default@2x.png */,
+				BFFFA16B1694263900EC9A34 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFFFA1501694263900EC9A34 /* icloudex2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFFFA16F1694263900EC9A34 /* Build configuration list for PBXNativeTarget "icloudex2" */;
+			buildPhases = (
+				BFFFA14D1694263900EC9A34 /* Sources */,
+				BFFFA14E1694263900EC9A34 /* Frameworks */,
+				BFFFA14F1694263900EC9A34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = icloudex2;
+			productName = icloudex2;
+			productReference = BFFFA1511694263900EC9A34 /* icloudex2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFFFA1481694263900EC9A34 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Systems Power";
+			};
+			buildConfigurationList = BFFFA14B1694263900EC9A34 /* Build configuration list for PBXProject "icloudex2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BFFFA1461694263900EC9A34;
+			productRefGroup = BFFFA1521694263900EC9A34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFFFA1501694263900EC9A34 /* icloudex2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFFFA14F1694263900EC9A34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFFFA1601694263900EC9A34 /* InfoPlist.strings in Resources */,
+				BFFFA1681694263900EC9A34 /* Default.png in Resources */,
+				BFFFA16A1694263900EC9A34 /* Default@2x.png in Resources */,
+				BFFFA16C1694263900EC9A34 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFFFA14D1694263900EC9A34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFFFA1621694263900EC9A34 /* main.m in Sources */,
+				BFFFA1661694263900EC9A34 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BFFFA15E1694263900EC9A34 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFFFA15F1694263900EC9A34 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFFFA16D1694263900EC9A34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BFFFA16E1694263900EC9A34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFFFA1701694263900EC9A34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "icloudex2/icloudex2-Prefix.pch";
+				INFOPLIST_FILE = "icloudex2/icloudex2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BFFFA1711694263900EC9A34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "icloudex2/icloudex2-Prefix.pch";
+				INFOPLIST_FILE = "icloudex2/icloudex2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFFFA14B1694263900EC9A34 /* Build configuration list for PBXProject "icloudex2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFFFA16D1694263900EC9A34 /* Debug */,
+				BFFFA16E1694263900EC9A34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFFFA16F1694263900EC9A34 /* Build configuration list for PBXNativeTarget "icloudex2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFFFA1701694263900EC9A34 /* Debug */,
+				BFFFA1711694263900EC9A34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFFFA1481694263900EC9A34 /* Project object */;
+}
